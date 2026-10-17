@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://dy4gowkmb0hc5"]
+
+[ext_resource type="PackedScene" uid="uid://dbdvqgc8g8150" path="res://Kitties.tscn" id="1_0g2hi"]
+[ext_resource type="Texture2D" uid="uid://btxde2c8prdwk" path="res://free-vet-clinic-icon-svg-download-png-2125054.png" id="2_o6n0e"]
+
+[node name="kitties at the vet" type="Node2D" unique_id=1224686105]
+
+[node name="Node2D" parent="." unique_id=1322739942 instance=ExtResource("1_0g2hi")]
+position = Vector2(0, 1)
+
+[node name="Sprite2D" type="Sprite2D" parent="Node2D" unique_id=1911060257]
+position = Vector2(499.00003, 109)
+scale = Vector2(0.90039057, 0.9550781)
+texture = ExtResource("2_o6n0e")
