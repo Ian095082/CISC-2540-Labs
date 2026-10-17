@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://dbdvqgc8g8150"]
+
+[ext_resource type="Texture2D" uid="uid://cy74lbqjkhw4p" path="res://kitty1.jpg" id="1_eundl"]
+[ext_resource type="Texture2D" uid="uid://ctpf1qcuqve5" path="res://download.jpg" id="2_eundl"]
+
+[node name="Node2D" type="Node2D" unique_id=1322739942]
+
+[node name="cat1" type="Sprite2D" parent="." unique_id=1373241799]
+position = Vector2(270, 318)
+scale = Vector2(1.2316862, 1.5101353)
+texture = ExtResource("1_eundl")
+
+[node name="cat2" type="Sprite2D" parent="." unique_id=1492162778]
+position = Vector2(698.00006, 322)
+scale = Vector2(1.337147, 1.3243244)
+texture = ExtResource("2_eundl")

@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://wwgr0aw52n1u"]
+
+[ext_resource type="Texture2D" uid="uid://btxde2c8prdwk" path="res://free-vet-clinic-icon-svg-download-png-2125054.png" id="1_chc2x"]
+
+[node name="kitties go to vet" type="Node2D" unique_id=433623097]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=131776423]
+position = Vector2(532.25, 307.75)
+scale = Vector2(0.90039057, 0.9550781)
+texture = ExtResource("1_chc2x")

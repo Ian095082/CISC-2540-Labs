@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://rw345l12y8gc"]
+
+[ext_resource type="PackedScene" uid="uid://wwgr0aw52n1u" path="res://kitties_go_to_vet.tscn" id="1_o6n0e"]
+[ext_resource type="PackedScene" uid="uid://dbdvqgc8g8150" path="res://Kitties.tscn" id="2_pepyj"]
+[ext_resource type="Script" uid="uid://dvb0bsdh4uhi3" path="res://kitties.gd" id="3_y06yv"]
+
+[node name="kitties at the vet" type="Node2D" unique_id=1318838005]
+
+[node name="kitties go to vet" parent="." unique_id=433623097 instance=ExtResource("1_o6n0e")]
+
+[node name="kitties" parent="kitties go to vet" unique_id=1322739942 instance=ExtResource("2_pepyj")]
+position = Vector2(48, 45)
+script = ExtResource("3_y06yv")
