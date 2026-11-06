@@ -16,6 +16,7 @@ size = Vector2(1000, 1000)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_noarx"]
 margin = 1.0
+size = Vector3(1, 0.89501953, 1)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_a0tk4"]
 margin = 0.733
@@ -38,7 +39,7 @@ use_collision = true
 collision_layer = 65535
 
 [node name="StaticBody3D" type="StaticBody3D" parent="CSGCylinder3D" unique_id=1617644113]
-transform = Transform3D(1, 6.0535967e-09, -3.7252903e-09, 4.190951e-09, 0.9999999, -3.72529e-09, -3.72529e-09, 0, 0.9999999, 0, 0, 0)
+transform = Transform3D(1, -4.1909507e-09, 3.7252894e-09, 4.190951e-09, 0.9999999, 0, -3.7252899e-09, 1.5612506e-17, 0.9999999, 0, 0, 0)
 physics_material_override = SubResource("PhysicsMaterial_noarx")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="CSGCylinder3D/StaticBody3D" unique_id=726923634]
@@ -61,10 +62,12 @@ collision_mask = 65535
 physics_material_override = SubResource("PhysicsMaterial_lm1o7")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="CSGBox3D/DirectionalLight3D/StaticBody3D" unique_id=1597913126]
+transform = Transform3D(1, 9.923129e-15, 0, 9.923129e-15, 1, 0, 0, 0, 1, 0, 0.052490234, 0)
 shape = SubResource("BoxShape3D_noarx")
 
 [node name="CharacterBody3D2" type="CharacterBody3D" parent="." unique_id=1336732263]
 transform = Transform3D(1, -1.1641532e-09, 1.4901161e-08, 2.561137e-09, 0.99999994, 0, 1.4901161e-08, -4.656613e-10, 1, 7.1525574e-07, -0.024549007, 0)
+motion_mode = 1
 script = ExtResource("1_noarx")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D2" unique_id=417486222]
@@ -80,5 +83,5 @@ keep_aspect = 0
 fov = 123.75
 
 [node name="Charakter" type="MeshInstance3D" parent="CharacterBody3D2" unique_id=2136788203]
-transform = Transform3D(-0.6560863, -0.00123961, -0.36338565, 0.013081329, 0.7494289, -0.026174622, 0.36315224, -0.029235173, -0.65556526, 4.526, 0, 3.712)
+transform = Transform3D(-0.6938301, -0.0012678106, -0.23530778, -0.009252044, 0.74962676, 0.024045225, 0.23213384, 0.02608814, -0.7023592, 4.5000405, -1.6496962, 3.712)
 mesh = ExtResource("2_a0tk4")
